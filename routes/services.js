@@ -5,7 +5,6 @@ const { protect, adminOnly } = require("../middleware/auth");
 const upload = require("../middleware/upload");
 const path = require("path");
 const fs = require("fs");
-const { json } = require("stream/consumers");
 
 router.get("/", async (req, res) => {
   try {
